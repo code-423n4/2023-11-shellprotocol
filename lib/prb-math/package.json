@@ -1,0 +1,60 @@
+{
+  "name": "@prb/math",
+  "description": "Solidity library for advanced fixed-point math",
+  "version": "3.3.2",
+  "author": {
+    "name": "Paul Razvan Berg",
+    "url": "https://github.com/PaulRBerg"
+  },
+  "bugs": {
+    "url": "https://github.com/PaulRBerg/prb-math/issues"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "pinst": "^3.0.0",
+    "prettier": "^2.8.3",
+    "prettier-plugin-solidity": "^1.1.2",
+    "rimraf": "^4.1.2",
+    "solhint": "^3.3.8",
+    "solhint-plugin-prettier": "^0.0.5"
+  },
+  "files": [
+    "/src",
+    "CHANGELOG.md"
+  ],
+  "homepage": "https://github.com/PaulRBerg/prb-math#readme",
+  "keywords": [
+    "arithmetic",
+    "blockchain",
+    "ethereum",
+    "fixed-point-math",
+    "library",
+    "math",
+    "smart-contracts",
+    "solidity"
+  ],
+  "license": "MIT",
+  "packageManager": "yarn@3.4.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulRBerg/prb-math"
+  },
+  "scripts": {
+    "build": "forge build",
+    "clean": "rimraf cache out",
+    "lint": "yarn prettier:check && yarn solhint \"{src,test}/**/*.sol\"",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable",
+    "prepublishOnly": "pinst --disable",
+    "prettier:check": "prettier --check \"**/*.{json,md,sol,yml}\"",
+    "prettier:write": "prettier --write \"**/*.{json,md,sol,yml}\""
+  }
+}
