@@ -53,7 +53,7 @@ Automated findings output for the audit can be found [here](https://github.com/c
 _Note for C4 wardens: Anything included in this `Automated Findings / Publicly Known Issues` section is considered a publicly known issue and is ineligible for awards._
 
 * Deploying an adapter with invalid parameters
-* Integrating with a malicious primitive may result in harmful behavior, but is only limited to the scope of the user and primitive's balances
+* Integrating with a malicious primitive may result in harmful behavior due to lack of re-entrancy checks
 
 
 # Overview
@@ -115,7 +115,7 @@ slither . --filter-path "mock|openzeppelin|auth|test|lib|scripts|abdk-libraries-
 Run `git clone https://github.com/code-423n4/2023-11-shellprotocol.git` & then run `yarn install`
 
 ### Testing
-Hardhat tests are located [here](https://github.com/cowri/shell-protocol-v3-contracts/tree/main/test), which include tests for the Ocean, Shell native primitives, and code coverage analysis. Foundry tests for the adapter are located [here](https://github.com/cowri/shell-protocol-v3-contracts/tree/main/src/test/fork), which include fuzz tests for the Curve adapters.
+Hardhat tests are located [here](https://github.com/code-423n4/2023-11-shellprotocol/tree/main/test), which include tests for the Ocean, Shell native primitives, and code coverage analysis. Foundry tests for the adapter are located [here](https://github.com/code-423n4/2023-11-shellprotocol/tree/main/src/test/fork), which include fuzz tests for the Curve adapters.
 
 To compile the contracts
 ```shell
@@ -137,7 +137,7 @@ To run coverage for Hardhat tests
 yarn coverage
 ```
 
-To run coverage for Foundry tests you can follow the instructions [here](https://mirror.xyz/devanon.eth/RrDvKPnlD-pmpuW7hQeR5wWdVjklrpOgPCOA-PJkWFU)
+To run coverage for Foundry tests
 ```shell
 forge coverage
 ```
@@ -157,22 +157,18 @@ For coverage for the [Adapter Contracts](/src/adapters/OceanAdapter.sol), run `f
 
 # Scope
 
-[ ⭐️ SPONSORS: add scoping and technical details here ]
-
-- [ ] In the table format shown below, provide the name of each contract and:
-  - [ ] source lines of code (excluding blank lines and comments) in each *For line of code counts, we recommend running prettier with a 100-character line length, and using [cloc](https://github.com/AlDanial/cloc).* 
-  - [ ] external contracts called in each
-  - [ ] libraries used in each
-
 *List all files in scope in the table below (along with hyperlinks) -- and feel free to add notes here to emphasize areas of focus.*
 
 | Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
-| [contracts/folder/sample.sol](https://github.com/code-423n4/repo-name/blob/contracts/folder/sample.sol) | 123 | This contract does XYZ | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [Ocean.sol](/src/Ocean/Ocean.sol) | 561 | The accounting engine of the shell protocol | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [Curve2PoolAdapter.sol](/src/adapters/Curve2PoolAdapter.sol) | 139 | Adapter that enables integration with the curve 2 pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [CurveTricryptoAdapter.sol](/src/adapters/CurveTricryptoAdapter.sol) | 199 | Adapter that enables integration with the curve tricrypto pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [OceanAdapter.sol](/src/adapters/OceanAdapter.sol) | 94 | Helper contract for the adapters | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 
 ## Out of scope
 
-*List any files/contracts that are out of scope for this audit.*
+All the contracts not mentioned in scope including all test files
 
 # Additional Context
 
@@ -188,9 +184,6 @@ For coverage for the [Adapter Contracts](/src/adapters/OceanAdapter.sol), run `f
 
 ## Attack ideas (Where to look for bugs)
 *List specific areas to address - see [this blog post](https://medium.com/code4rena/the-security-council-elections-within-the-arbitrum-dao-a-comprehensive-guide-aa6d001aae60#9adb) for an example*
-
-## Main invariants
-*Describe the project's main invariants (properties that should NEVER EVER be broken).*
 
 ## Scoping Details 
 [ ⭐️ SPONSORS: please confirm/edit the information below. ]
