@@ -106,10 +106,15 @@ Currently, we use [Slither](https://github.com/crytic/slither) to help identify 
 
 To run the analysis
 ```shell
+slither . --filter-path "mock|openzeppelin|auth|test|lib|scripts|abdk-libraries-solidity|proteus" --foundry-compile-all
 
 ```
 
-### Unit Tests and Fuzzing
+### Installation
+
+Run `git clone https://github.com/code-423n4/2023-11-shellprotocol.git` & then run `yarn install`
+
+### Testing
 Hardhat tests are located [here](https://github.com/cowri/shell-protocol-v3-contracts/tree/main/test), which include tests for the Ocean, Shell native primitives, and code coverage analysis. Foundry tests for the adapter are located [here](https://github.com/cowri/shell-protocol-v3-contracts/tree/main/src/test/fork), which include fuzz tests for the Curve adapters.
 
 To compile the contracts
@@ -141,17 +146,13 @@ For coverage for the [Ocean Contract](/src/Ocean/Ocean.sol), run `yarn coverage`
 For coverage for the [Adapter Contracts](/src/adapters/OceanAdapter.sol), run `forge coverage`
 
 
-### Known behaviors (automated findings / out of scope issues)
-
-
 
 ## Links
-
-- **Previous audits:** 
-- **Documentation:**
-- **Website:**
-- **Twitter:** 
-- **Discord:** 
+- **Previous audits:** https://wiki.shellprotocol.io/getting-started/security-and-bounties#audits
+- **Website** : https://shellprotocol.io/
+- **Documentation** : https://wiki.shellprotocol.io/getting-started/overview
+- **Twitter** : https://twitter.com/CowriLabs
+- **Discord** : https://discord.com/invite/S5EU5zmqxP
 
 
 # Scope
@@ -213,9 +214,3 @@ For coverage for the [Adapter Contracts](/src/adapters/OceanAdapter.sol), run `f
 - Does it use a side-chain?:
 - Describe any specific areas you would like addressed:
 ```
-
-# Tests
-
-*Provide every step required to build the project from a fresh git clone, as well as steps to run the tests with a gas report.* 
-
-*Note: Many wardens run Slither as a first pass for testing.  Please document any known errors with no workaround.* 
