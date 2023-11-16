@@ -1,0 +1,53 @@
+{
+  "name": "@cowri/shell-v3-contracts",
+  "description": "",
+  "version": "1.0.0",
+  "author": {
+    "name": "cowri",
+    "url": "https://github.com/cowri"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4",
+    "rimraf": "^4.1.2",
+    "solhint": "^3.4.0"
+  },
+  "keywords": [
+    "blockchain",
+    "ethereum",
+    "forge",
+    "foundry",
+    "smart-contracts",
+    "solidity",
+    "template"
+  ],
+  "packageManager": "yarn@3.4.1",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf cache out",
+    "lint": "yarn lint:sol && yarn prettier:check",
+    "lint:sol": "forge fmt --check && yarn solhint \"{script,src,test}/**/*.sol\"",
+    "generate-merkle-root": "npx ts-node scripts/generate-merkle-root.ts > output.json",
+    "prettier:check": "prettier --check \"**/*.{json,md,yml}\"",
+    "prettier:write": "prettier --write \"**/*.{json,md,yml}\"",
+    "coverage": "npx hardhat coverage --testfiles 'test/**'"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.8.1",
+    "abdk-libraries-solidity": "^3.2.0",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethereumjs-util": "^7.0.4",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.10.2",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.24",
+    "shell-v2-ocean": "1.0.0",
+    "solidity-coverage": "^0.8.2",
+    "toml": "^3.0.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
