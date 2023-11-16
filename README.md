@@ -1,35 +1,5 @@
-# Repo setup
-
-## ⭐️ Sponsor: Add code to this repo
-
-- [ ] Create a PR to this repo with the below changes:
-- [ ] Provide a self-contained repository with working commands that will build (at least) all in-scope contracts, and commands that will run tests producing gas reports for the relevant contracts.
-- [ ] Make sure your code is thoroughly commented using the [NatSpec format](https://docs.soliditylang.org/en/v0.5.10/natspec-format.html#natspec-format).
-- [ ] Please have final versions of contracts and documentation added/updated in this repo **no less than 48 business hours prior to audit start time.**
-- [ ] Be prepared for a 🚨code freeze🚨 for the duration of the audit — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the audit. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
-
-
----
-
-## ⭐️ Sponsor: Edit this `README.md` file
-
-- [ ] Modify the contents of this `README.md` file. Describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing. ([Here's a well-constructed example.](https://github.com/code-423n4/2022-08-foundation#readme))
-- [ ] Review the Gas award pool amount. This can be adjusted up or down, based on your preference - just flag it for Code4rena staff so we can update the pool totals across all comms channels.
-- [ ] Optional / nice to have: pre-record a high-level overview of your protocol (not just specific smart contract functions). This saves wardens a lot of time wading through documentation.
-- [ ] [This checklist in Notion](https://code4rena.notion.site/Key-info-for-Code4rena-sponsors-f60764c4c4574bbf8e7a6dbd72cc49b4#0cafa01e6201462e9f78677a39e09746) provides some best practices for Code4rena audits.
-
-## ⭐️ Sponsor: Final touches
-- [ ] Review and confirm the details in the section titled "Scoping details" and alert Code4rena staff of any changes.
-- [ ] Check that images and other files used in this README have been uploaded to the repo as a file and then linked in the README using absolute path (e.g. `https://github.com/code-423n4/yourrepo-url/filepath.png`)
-- [ ] Ensure that *all* links and image/file paths in this README use absolute paths, not relative paths
-- [ ] Check that all README information is in markdown format (HTML does not render on Code4rena.com)
-- [ ] Remove any part of this template that's not relevant to the final version of the README (e.g. instructions in brackets and italic)
-- [ ] Delete this checklist and all text above the line below when you're ready.
-
----
-
-# Sponsorname audit details
-- Total Prize Pool: $52,000 USDC
+# Shell Protocol audit details
+- Total Prize Pool: $36,500 USDC
   - HM awards: $24,750 USDC
   - Analysis awards: $1,500 USDC
   - QA awards: $750 USDC
@@ -46,7 +16,7 @@
 
 ## Automated Findings / Publicly Known Issues
 
-The 4naly3er report can be found [here](https://github.com/code-423n4/YYYY-MM-contest-candidate/blob/main/4naly3er-report.md).
+The 4naly3er report can be found [here](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/4naly3er-report.md).
 
 Automated findings output for the audit can be found [here](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/bot-report.md) within 24 hours of audit opening.
 
@@ -188,7 +158,6 @@ All the contracts not mentioned in scope including all test files
 * Detection of any malicious behaviour with the curve adapter contracts in scope
 
 ## Scoping Details 
-[ ⭐️ SPONSORS: please confirm/edit the information below. ]
 
 ```
 - If you have a public code repo, please share it here: Private repo 
