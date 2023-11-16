@@ -1,0 +1,35 @@
+[profile.default]
+  auto_detect_solc = false
+  bytecode_hash = "none"
+  cbor_metadata = false
+  fuzz = { runs = 1_000 }
+  gas_reports = ["*"]
+  libs = ["lib"]
+  remappings = [
+   '@openzeppelin=node_modules/@openzeppelin',
+   'abdk-libraries-solidity=node_modules/abdk-libraries-solidity'
+  ]
+  solc_version = "0.8.20"
+  evm_version = "paris"
+  optimizer = true
+  optimizer_runs = 10_000
+  out = "out"
+  script = "script"
+  src = "src"
+  test = "test"
+  fs_permissions = [{ access = "read", path = "./"}]
+
+[invariant] #invariant section
+  fail_on_revert = true
+  runs = 1000
+  depth = 200
+
+[fmt]
+  bracket_spacing = true
+  int_types = "long"
+  line_length = 120
+  multiline_func_header = "all"
+  number_underscore = "thousands"
+  quote_style = "double"
+  tab_width = 4
+  wrap_comments = true

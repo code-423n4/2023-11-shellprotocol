@@ -1,0 +1,8 @@
+TestCrabDistributor:test_claim_reverts_if_user_tries_to_claim_again() (gas: 94222)
+TestCrabDistributor:test_claim_reverts_if_user_tries_to_claim_with_invalid_proof() (gas: 21926)
+TestCrabDistributor:test_claim_reverts_when_made_against_invalid_proof() (gas: 123658)
+TestCrabDistributor:test_claim_when_root_is_updated_again_and_claim_reverts_if_user_tries_to_claim_with_invalid_proof() (gas: 50951)
+TestCrabDistributor:test_claim_when_root_is_updated_again_and_reverts_if_user_tries_to_claim_again() (gas: 158511)
+TestCrabDistributor:test_claim_when_root_is_updated_again_and_users_are_able_to_claim_with_correct_proofs() (gas: 195168)
+TestCrabDistributor:test_claim_when_root_is_updated_with_multiple_proofs() (gas: 153970)
+TestCrabDistributor:test_users_are_able_to_claim_with_correct_proofs() (gas: 150411)
