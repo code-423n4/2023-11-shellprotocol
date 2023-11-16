@@ -132,7 +132,7 @@ For coverage for the [Adapter Contracts](/src/adapters/OceanAdapter.sol), run `f
 
 | Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
-| [Ocean.sol](/src/Ocean/Ocean.sol) | 561 | The accounting engine of the shell protocol | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [Ocean.sol](/src/ocean/Ocean.sol) | 561 | The accounting engine of the shell protocol | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 | [Curve2PoolAdapter.sol](/src/adapters/Curve2PoolAdapter.sol) | 139 | Adapter that enables integration with the curve 2 pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 | [CurveTricryptoAdapter.sol](/src/adapters/CurveTricryptoAdapter.sol) | 199 | Adapter that enables integration with the curve tricrypto pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 | [OceanAdapter.sol](/src/adapters/OceanAdapter.sol) | 94 | Helper contract for the adapters | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
