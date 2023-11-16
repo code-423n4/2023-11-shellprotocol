@@ -7,7 +7,6 @@
   libs = ["lib"]
   remappings = [
    '@openzeppelin=node_modules/@openzeppelin',
-   '@shell-v2-ocean=node_modules/shell-v2-ocean',
    'abdk-libraries-solidity=node_modules/abdk-libraries-solidity'
   ]
   solc_version = "0.8.20"
