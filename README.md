@@ -29,7 +29,7 @@
 ---
 
 # Sponsorname audit details
-- Total Prize Pool: $52,000 USDC
+- Total Prize Pool: $36,500 USDC
   - HM awards: $24,750 USDC
   - Analysis awards: $1,500 USDC
   - QA awards: $750 USDC
@@ -46,7 +46,7 @@
 
 ## Automated Findings / Publicly Known Issues
 
-The 4naly3er report can be found [here](https://github.com/code-423n4/YYYY-MM-contest-candidate/blob/main/4naly3er-report.md).
+The 4naly3er report can be found [here](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/4naly3er-report.md).
 
 Automated findings output for the audit can be found [here](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/bot-report.md) within 24 hours of audit opening.
 
