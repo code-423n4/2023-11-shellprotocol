@@ -54,6 +54,7 @@ _Note for C4 wardens: Anything included in this `Automated Findings / Publicly K
 
 * Deploying an adapter with invalid parameters
 * Integrating with a malicious primitive may result in harmful behavior due to lack of re-entrancy checks
+* external contract risk (curve in this case) 
 
 
 # Overview
@@ -183,7 +184,8 @@ All the contracts not mentioned in scope including all test files
   - `Contract2`: Should comply with `ERC/EIPY`
 
 ## Attack ideas (Where to look for bugs)
-*List specific areas to address - see [this blog post](https://medium.com/code4rena/the-security-council-elections-within-the-arbitrum-dao-a-comprehensive-guide-aa6d001aae60#9adb) for an example*
+* Breaking any invariants listed above in the Ocean Contract
+* Detection of any malicious behaviour with the curve adapter contracts in scope
 
 ## Scoping Details 
 [ ⭐️ SPONSORS: please confirm/edit the information below. ]
@@ -204,6 +206,6 @@ All the contracts not mentioned in scope including all test files
 - Does it use an oracle?: No
 - Describe any novel or unique curve logic or mathematical models your code uses: 
 - Is this either a fork of or an alternate implementation of another project?: False  
-- Does it use a side-chain?:
-- Describe any specific areas you would like addressed:
+- Does it use a side-chain?: no
+- Describe any specific areas you would like addressed: not really all 3 contracts are important
 ```
