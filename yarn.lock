@@ -3,19 +3,18 @@
 
 
 "@babel/code-frame@^7.0.0":
-  "version" "7.22.13"
+  "version" "7.21.4"
   dependencies:
-    "@babel/highlight" "^7.22.13"
-    "chalk" "^2.4.2"
+    "@babel/highlight" "^7.18.6"
 
-"@babel/helper-validator-identifier@^7.22.20":
-  "version" "7.22.20"
+"@babel/helper-validator-identifier@^7.18.6":
+  "version" "7.19.1"
 
-"@babel/highlight@^7.22.13":
-  "version" "7.22.20"
+"@babel/highlight@^7.18.6":
+  "version" "7.18.6"
   dependencies:
-    "@babel/helper-validator-identifier" "^7.22.20"
-    "chalk" "^2.4.2"
+    "@babel/helper-validator-identifier" "^7.18.6"
+    "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
 "@chainsafe/as-sha256@^0.3.1":
@@ -573,7 +572,7 @@
     "mcl-wasm" "^0.7.1"
     "rustbn.js" "~0.2.0"
 
-"@nomicfoundation/solidity-analyzer-darwin-x64@0.1.1":
+"@nomicfoundation/solidity-analyzer-darwin-arm64@0.1.1":
   "version" "0.1.1"
 
 "@nomicfoundation/solidity-analyzer@^0.1.0":
@@ -611,7 +610,7 @@
   "version" "2.0.6"
 
 "@openzeppelin/contracts@^4.8.1":
-  "version" "4.9.3"
+  "version" "4.9.0"
 
 "@resolver-engine/core@^0.3.3":
   "version" "0.3.3"
@@ -732,7 +731,7 @@
   "version" "4.6.0"
 
 "@solidity-parser/parser@^0.16.0":
-  "version" "0.16.1"
+  "version" "0.16.0"
   dependencies:
     "antlr4ts" "^0.5.0-alpha.4"
 
@@ -757,7 +756,7 @@
     "@types/node" "*"
 
 "@types/bn.js@^5.1.0":
-  "version" "5.1.3"
+  "version" "5.1.1"
   dependencies:
     "@types/node" "*"
 
@@ -768,11 +767,6 @@
     "@types/keyv" "^3.1.4"
     "@types/node" "*"
     "@types/responselike" "^1.0.0"
-
-"@types/chai@*":
-  "integrity" "sha512-of+ICnbqjmFCiixUnqRulbylyXQrPqIGf/B3Jax1wIF3DvSheysQxAWvqHhZiW3IQrycvokcLcFQlveGp+vyNg=="
-  "resolved" "https://registry.npmjs.org/@types/chai/-/chai-4.3.10.tgz"
-  "version" "4.3.10"
 
 "@types/glob@^7.1.1":
   "version" "7.2.0"
@@ -806,9 +800,7 @@
     "form-data" "^4.0.0"
 
 "@types/node@*":
-  "version" "20.8.6"
-  dependencies:
-    "undici-types" "~5.25.1"
+  "version" "20.2.4"
 
 "@types/node@^12.12.6":
   "version" "12.20.55"
@@ -838,29 +830,9 @@
     "@types/node" "*"
 
 "@types/secp256k1@^4.0.1":
-  "version" "4.0.4"
+  "version" "4.0.3"
   dependencies:
     "@types/node" "*"
-
-"@types/sinon-chai@^3.2.3":
-  "integrity" "sha512-9y0Gflk3b0+NhQZ/oxGtaAJDvRywCa5sIyaVnounqLvmf93yBF4EgIRspePtkMs3Tr844nCclYMlcCNmLCvjuQ=="
-  "resolved" "https://registry.npmjs.org/@types/sinon-chai/-/sinon-chai-3.2.12.tgz"
-  "version" "3.2.12"
-  dependencies:
-    "@types/chai" "*"
-    "@types/sinon" "*"
-
-"@types/sinon@*":
-  "integrity" "sha512-Q2Go6TJetYn5Za1+RJA1Aik61Oa2FS8SuJ0juIqUuJ5dZR4wvhKfmSdIqWtQ3P6gljKWjW0/R7FZkA4oXVL6OA=="
-  "resolved" "https://registry.npmjs.org/@types/sinon/-/sinon-17.0.1.tgz"
-  "version" "17.0.1"
-  dependencies:
-    "@types/sinonjs__fake-timers" "*"
-
-"@types/sinonjs__fake-timers@*":
-  "integrity" "sha512-mQkU2jY8jJEF7YHjHvsQO8+3ughTL1mcnn96igfhONmR+fUPSKIkefQYpSe8bsly2Ep7oQbn/6VG5/9/0qcArQ=="
-  "resolved" "https://registry.npmjs.org/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-8.1.5.tgz"
-  "version" "8.1.5"
 
 "@yarnpkg/lockfile@^1.1.0":
   "version" "1.1.0"
@@ -989,7 +961,7 @@
     "color-convert" "^2.0.1"
 
 "antlr4@^4.11.0":
-  "version" "4.13.1"
+  "version" "4.13.0"
 
 "antlr4ts@^0.5.0-alpha.4":
   "version" "0.5.0-dev"
@@ -1907,7 +1879,7 @@
     "strip-ansi" "^3.0.0"
     "supports-color" "^2.0.0"
 
-"chalk@^2.4.1", "chalk@^2.4.2":
+"chalk@^2.0.0", "chalk@^2.4.1", "chalk@^2.4.2":
   "version" "2.4.2"
   dependencies:
     "ansi-styles" "^3.2.1"
@@ -2127,11 +2099,11 @@
     "vary" "^1"
 
 "cosmiconfig@^8.0.0":
-  "version" "8.3.6"
+  "version" "8.1.3"
   dependencies:
-    "import-fresh" "^3.3.0"
+    "import-fresh" "^3.2.1"
     "js-yaml" "^4.1.0"
-    "parse-json" "^5.2.0"
+    "parse-json" "^5.0.0"
     "path-type" "^4.0.0"
 
 "crc-32@^1.2.0":
@@ -2743,8 +2715,7 @@
     "@ethereum-waffle/provider" "^3.4.4"
     "ethers" "^5.0.1"
 
-"ethereumjs-abi@^0.6.8", "ethereumjs-abi@0.6.8", "ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
-  "resolved" "git+ssh://git@github.com/ethereumjs/ethereumjs-abi.git#ee3994657fa7a427238e6ba92a84d0b529bbcde0"
+"ethereumjs-abi@^0.6.8", "ethereumjs-abi@0.6.8":
   "version" "0.6.8"
   dependencies:
     "bn.js" "^4.11.8"
@@ -2755,6 +2726,12 @@
   dependencies:
     "bn.js" "^4.10.0"
     "ethereumjs-util" "^4.3.0"
+
+"ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git":
+  "version" "0.6.8"
+  dependencies:
+    "bn.js" "^4.11.8"
+    "ethereumjs-util" "^6.0.0"
 
 "ethereumjs-account@^2.0.3":
   "version" "2.0.5"
@@ -2975,7 +2952,7 @@
     "utf8" "^3.0.0"
     "uuid" "^3.3.2"
 
-"ethers@^5.0.0", "ethers@^5.0.1", "ethers@^5.0.2", "ethers@^5.5.2", "ethers@^5.7.0", "ethers@^5.7.1":
+"ethers@^5.0.0", "ethers@^5.0.1", "ethers@^5.5.2", "ethers@^5.7.0", "ethers@^5.7.1":
   "version" "5.7.2"
   dependencies:
     "@ethersproject/abi" "5.7.0"
@@ -3235,11 +3212,6 @@
 
 "forever-agent@~0.6.1":
   "version" "0.6.1"
-
-"forge-std@^1.1.2":
-  "integrity" "sha512-Wfb0iAS9PcfjMKtGpWQw9mXzJxrWD62kJCUqqLcyuI0+VRtJ3j20XembjF3kS20qELYdXft1vD/SPFVWVKMFOw=="
-  "resolved" "https://registry.npmjs.org/forge-std/-/forge-std-1.1.2.tgz"
-  "version" "1.1.2"
 
 "form-data@^4.0.0":
   "version" "4.0.0"
@@ -3786,7 +3758,7 @@
 "immutable@^4.0.0-rc.12":
   "version" "4.3.4"
 
-"import-fresh@^3.3.0":
+"import-fresh@^3.2.1":
   "version" "3.3.0"
   dependencies:
     "parent-module" "^1.0.0"
@@ -4179,7 +4151,14 @@
     "json-schema" "0.4.0"
     "verror" "1.10.0"
 
-"keccak@^3.0.0", "keccak@^3.0.2":
+"keccak@^3.0.0":
+  "version" "3.0.3"
+  dependencies:
+    "node-addon-api" "^2.0.0"
+    "node-gyp-build" "^4.2.0"
+    "readable-stream" "^3.6.0"
+
+"keccak@^3.0.2":
   "version" "3.0.4"
   dependencies:
     "node-addon-api" "^2.0.0"
@@ -4449,8 +4428,8 @@
   dependencies:
     "yallist" "^4.0.0"
 
-"lru-cache@^9.1.1 || ^10.0.0":
-  "version" "10.0.1"
+"lru-cache@^9.1.1":
+  "version" "9.1.1"
 
 "ltgt@^2.1.2", "ltgt@~2.2.0":
   "version" "2.2.1"
@@ -4636,8 +4615,8 @@
 "minipass@^4.2.4":
   "version" "4.2.8"
 
-"minipass@^5.0.0 || ^6.0.2 || ^7.0.0":
-  "version" "7.0.4"
+"minipass@^5.0.0 || ^6.0.2":
+  "version" "6.0.2"
 
 "minizlib@^1.3.3":
   "version" "1.3.3"
@@ -4803,7 +4782,10 @@
     "encoding" "^0.1.11"
     "is-stream" "^1.0.1"
 
-"node-gyp-build@^4.2.0", "node-gyp-build@^4.3.0":
+"node-gyp-build@^4.2.0":
+  "version" "4.6.0"
+
+"node-gyp-build@^4.3.0":
   "version" "4.6.1"
 
 "nofilter@^3.1.0":
@@ -4999,7 +4981,7 @@
   dependencies:
     "error-ex" "^1.2.0"
 
-"parse-json@^5.2.0":
+"parse-json@^5.0.0":
   "version" "5.2.0"
   dependencies:
     "@babel/code-frame" "^7.0.0"
@@ -5071,10 +5053,10 @@
   "version" "1.0.7"
 
 "path-scurry@^1.6.1":
-  "version" "1.10.1"
+  "version" "1.9.2"
   dependencies:
-    "lru-cache" "^9.1.1 || ^10.0.0"
-    "minipass" "^5.0.0 || ^6.0.2 || ^7.0.0"
+    "lru-cache" "^9.1.1"
+    "minipass" "^5.0.0 || ^6.0.2"
 
 "path-to-regexp@0.1.7":
   "version" "0.1.7"
@@ -5146,7 +5128,7 @@
     "semver" "^7.3.8"
     "solidity-comments-extractor" "^0.0.7"
 
-"prettier@^2.1.2", "prettier@^2.8.3", "prettier@^2.8.4", "prettier@>=2.3.0 || >=3.0.0-alpha.0":
+"prettier@^2.1.2", "prettier@^2.7.1", "prettier@^2.8.3", "prettier@>=2.3.0 || >=3.0.0-alpha.0":
   "version" "2.8.8"
 
 "private@^0.1.6", "private@^0.1.8":
@@ -5315,7 +5297,29 @@
     "isarray" "0.0.1"
     "string_decoder" "~0.10.x"
 
-"readable-stream@^2.0.0", "readable-stream@^2.0.5", "readable-stream@^2.2.2", "readable-stream@^2.2.9", "readable-stream@^2.3.6", "readable-stream@~2.3.6":
+"readable-stream@^2.0.0":
+  "version" "2.3.8"
+  dependencies:
+    "core-util-is" "~1.0.0"
+    "inherits" "~2.0.3"
+    "isarray" "~1.0.0"
+    "process-nextick-args" "~2.0.0"
+    "safe-buffer" "~5.1.1"
+    "string_decoder" "~1.1.1"
+    "util-deprecate" "~1.0.1"
+
+"readable-stream@^2.0.5":
+  "version" "2.3.8"
+  dependencies:
+    "core-util-is" "~1.0.0"
+    "inherits" "~2.0.3"
+    "isarray" "~1.0.0"
+    "process-nextick-args" "~2.0.0"
+    "safe-buffer" "~5.1.1"
+    "string_decoder" "~1.1.1"
+    "util-deprecate" "~1.0.1"
+
+"readable-stream@^2.2.2":
   "version" "2.3.8"
   dependencies:
     "core-util-is" "~1.0.0"
@@ -5337,14 +5341,29 @@
     "string_decoder" "~1.1.1"
     "util-deprecate" "~1.0.1"
 
-"readable-stream@^3.0.6":
-  "version" "3.6.2"
+"readable-stream@^2.2.9":
+  "version" "2.3.8"
   dependencies:
-    "inherits" "^2.0.3"
-    "string_decoder" "^1.1.1"
-    "util-deprecate" "^1.0.1"
+    "core-util-is" "~1.0.0"
+    "inherits" "~2.0.3"
+    "isarray" "~1.0.0"
+    "process-nextick-args" "~2.0.0"
+    "safe-buffer" "~5.1.1"
+    "string_decoder" "~1.1.1"
+    "util-deprecate" "~1.0.1"
 
-"readable-stream@^3.6.0":
+"readable-stream@^2.3.6":
+  "version" "2.3.8"
+  dependencies:
+    "core-util-is" "~1.0.0"
+    "inherits" "~2.0.3"
+    "isarray" "~1.0.0"
+    "process-nextick-args" "~2.0.0"
+    "safe-buffer" "~5.1.1"
+    "string_decoder" "~1.1.1"
+    "util-deprecate" "~1.0.1"
+
+"readable-stream@^3.0.6", "readable-stream@^3.6.0":
   "version" "3.6.2"
   dependencies:
     "inherits" "^2.0.3"
@@ -5358,6 +5377,17 @@
     "inherits" "~2.0.1"
     "isarray" "0.0.1"
     "string_decoder" "~0.10.x"
+
+"readable-stream@~2.3.6":
+  "version" "2.3.8"
+  dependencies:
+    "core-util-is" "~1.0.0"
+    "inherits" "~2.0.3"
+    "isarray" "~1.0.0"
+    "process-nextick-args" "~2.0.0"
+    "safe-buffer" "~5.1.1"
+    "string_decoder" "~1.1.1"
+    "util-deprecate" "~1.0.1"
 
 "readdirp@~3.6.0":
   "version" "3.6.0"
@@ -5618,7 +5648,7 @@
   "version" "5.7.2"
 
 "semver@^6.3.0":
-  "version" "6.3.1"
+  "version" "6.3.0"
 
 "semver@^7.3.4":
   "version" "7.5.4"
@@ -5626,11 +5656,6 @@
     "lru-cache" "^6.0.0"
 
 "semver@^7.3.8":
-  "version" "7.5.4"
-  dependencies:
-    "lru-cache" "^6.0.0"
-
-"semver@^7.5.2":
   "version" "7.5.4"
   dependencies:
     "lru-cache" "^6.0.0"
@@ -5820,7 +5845,7 @@
     "tmp" "0.0.33"
 
 "solhint@^3.4.0":
-  "version" "3.6.2"
+  "version" "3.4.1"
   dependencies:
     "@solidity-parser/parser" "^0.16.0"
     "ajv" "^6.12.6"
@@ -5835,7 +5860,7 @@
     "js-yaml" "^4.1.0"
     "lodash" "^4.17.21"
     "pluralize" "^8.0.0"
-    "semver" "^7.5.2"
+    "semver" "^6.3.0"
     "strip-ansi" "^6.0.1"
     "table" "^6.8.1"
     "text-table" "^0.2.0"
@@ -6332,7 +6357,7 @@
 "typedarray@^0.0.6":
   "version" "0.0.6"
 
-"typescript@*", "typescript@^3.7.3", "typescript@>=2.7", "typescript@>=3.7.0", "typescript@>=4.9.5":
+"typescript@*", "typescript@^3.7.3", "typescript@>=2.7", "typescript@>=3.7.0":
   "version" "3.9.10"
 
 "typewise-core@^1.2", "typewise-core@^1.2.0":
@@ -6365,9 +6390,6 @@
 
 "underscore@1.9.1":
   "version" "1.9.1"
-
-"undici-types@~5.25.1":
-  "version" "5.25.3"
 
 "undici@^5.14.0":
   "version" "5.26.3"
