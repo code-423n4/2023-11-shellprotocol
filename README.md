@@ -23,7 +23,7 @@ Automated findings output for the audit can be found [here](https://github.com/c
 _Note for C4 wardens: Anything included in this `Automated Findings / Publicly Known Issues` section is considered a publicly known issue and is ineligible for awards._
 
 * Deploying an adapter with invalid parameters
-* Integrating with a malicious primitive may result in harmful behavior due to lack of re-entrancy checks
+* Integrating with a malicious primitive may result in harmful behavior due to lack of re-entrancy checks since ocean's security in this case is completely dependent on the primitive's security
 * external contract risk (curve in this case) 
 
 
