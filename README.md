@@ -43,11 +43,11 @@ The goal of Shell v3 is to make the Ocean compatible with external protocols thr
 - Refactored the order in which a primitive's balances are updated. Previously, both mints and burns would occur after the primitive had performed its computation in `computeOutputAmount` or `computeInputAmount`. Now, the primitive's balances will be minted the input token or burned the output token before performing the computation step, and then will burn the output token or mint the input token based on the result.
 
 ### Liquidity Pools
-- [LiquidityPoolProxy.sol](/src/proteus/LiquidityPoolProxy.sol) was refactored to account for the changes in the Ocean updates the primitive's balances. After calling `_getBalances()`, the pool will adjust the values appropriately.
+- [LiquidityPoolProxy.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/proteus/LiquidityPoolProxy.sol) was refactored to account for the changes in the Ocean updates the primitive's balances. After calling `_getBalances()`, the pool will adjust the values appropriately.
 
 ### Adapter Primitives
-- Introducing [OceanAdapter.sol](/src/adapters/OceanAdapter.sol), a generalized adapter interface for adapter primitives.
-- Demonstrated implementation in two examples, [Curve2PoolAdapter.sol](/src/adapters/Curve2PoolAdapter.sol) and [CurveTricryptoAdapter.sol](/src/adapters/CurveTricryptoAdapter.sol).
+- Introducing [OceanAdapter.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/OceanAdapter.sol), a generalized adapter interface for adapter primitives.
+- Demonstrated implementation in two examples, [Curve2PoolAdapter.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/Curve2PoolAdapter.sol) and [CurveTricryptoAdapter.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/CurveTricryptoAdapter.sol).
 
 ## Invariants
 
@@ -113,8 +113,8 @@ To run coverage for Foundry tests
 forge coverage
 ```
 
-For coverage for the [Ocean Contract](/src/Ocean/Ocean.sol), run `yarn coverage`
-For coverage for the [Adapter Contracts](/src/adapters/OceanAdapter.sol), run `forge coverage`
+For coverage for the [Ocean Contract](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/Ocean/Ocean.sol), run `yarn coverage`
+For coverage for the [Adapter Contracts](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/OceanAdapter.sol), run `forge coverage`
 
 
 
@@ -132,10 +132,10 @@ For coverage for the [Adapter Contracts](/src/adapters/OceanAdapter.sol), run `f
 
 | Contract | SLOC | Purpose | Libraries used |  
 | ----------- | ----------- | ----------- | ----------- |
-| [Ocean.sol](/src/Ocean/Ocean.sol) | 561 | The accounting engine of the shell protocol | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [Curve2PoolAdapter.sol](/src/adapters/Curve2PoolAdapter.sol) | 139 | Adapter that enables integration with the curve 2 pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [CurveTricryptoAdapter.sol](/src/adapters/CurveTricryptoAdapter.sol) | 199 | Adapter that enables integration with the curve tricrypto pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
-| [OceanAdapter.sol](/src/adapters/OceanAdapter.sol) | 94 | Helper contract for the adapters | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [Ocean.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/ocean/Ocean.sol) | 561 | The accounting engine of the shell protocol | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [Curve2PoolAdapter.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/Curve2PoolAdapter.sol) | 139 | Adapter that enables integration with the curve 2 pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [CurveTricryptoAdapter.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/CurveTricryptoAdapter.sol) | 199 | Adapter that enables integration with the curve tricrypto pool | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
+| [OceanAdapter.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/OceanAdapter.sol) | 94 | Helper contract for the adapters | [`@openzeppelin/*`](https://openzeppelin.com/contracts/) |
 
 ## Out of scope
 
