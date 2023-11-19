@@ -11,8 +11,8 @@
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-11-shellprotocol/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts November 20, 2023 20:00 UTC
-- Starts November 28, 2023 20:00 UTC
+- Starts November 22, 2023 20:00 UTC
+- Starts November 30, 2023 20:00 UTC
 
 ## Automated Findings / Publicly Known Issues
 
