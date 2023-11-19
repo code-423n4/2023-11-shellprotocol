@@ -11,8 +11,8 @@
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-11-shellprotocol/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts November 22, 2023 20:00 UTC
-- Starts November 30, 2023 20:00 UTC
+- Starts November 20, 2023 20:00 UTC
+- Starts November 28, 2023 20:00 UTC
 
 ## Automated Findings / Publicly Known Issues
 
@@ -25,6 +25,8 @@ _Note for C4 wardens: Anything included in this `Automated Findings / Publicly K
 * Deploying an adapter with invalid parameters
 * Integrating with a malicious primitive may result in harmful behavior due to lack of re-entrancy checks since ocean's security in this case is completely dependent on the primitive's security
 * external contract risk (curve in this case) 
+* Any re-entrancy issues arising due to a malicious primitive being called by the ocean initially
+* Refer to this [doc](https://docs.google.com/document/d/1HJpomEsY4dAyXsQ3MF27YFaX74QS4EE05f76ikLg25c/edit) for a full explanantion on the ocean from a re-entrancy perspective 
 
 
 # Overview
@@ -43,7 +45,7 @@ The goal of Shell v3 is to make the Ocean compatible with external protocols thr
 - Refactored the order in which a primitive's balances are updated. Previously, both mints and burns would occur after the primitive had performed its computation in `computeOutputAmount` or `computeInputAmount`. Now, the primitive's balances will be minted the input token or burned the output token before performing the computation step, and then will burn the output token or mint the input token based on the result.
 
 ### Liquidity Pools
-- [LiquidityPoolProxy.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/proteus/LiquidityPoolProxy.sol) was refactored to account for the changes in the Ocean updates the primitive's balances. After calling `_getBalances()`, the pool will adjust the values appropriately (note this file is NOT in scope).
+- [LiquidityPoolProxy.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/proteus/LiquidityPoolProxy.sol) was refactored to account for the changes in the Ocean updates the primitive's balances. After calling `_getBalances()`, the pool will adjust the values appropriately.
 
 ### Adapter Primitives
 - Introducing [OceanAdapter.sol](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/OceanAdapter.sol), a generalized adapter interface for adapter primitives.
