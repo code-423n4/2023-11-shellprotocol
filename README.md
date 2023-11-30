@@ -115,7 +115,7 @@ To run coverage for Foundry tests
 forge coverage
 ```
 
-For coverage for the [Ocean Contract](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/Ocean/Ocean.sol), run `yarn coverage`
+For coverage for the [Ocean Contract](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/ocean/Ocean.sol), run `yarn coverage`
 For coverage for the [Adapter Contracts](https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/adapters/OceanAdapter.sol), run `forge coverage`
 
 
