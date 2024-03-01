@@ -1,0 +1,1427 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q4-2023 / shellprotocol-nov30
+==============================================================
+
+[11/20/2023 14:24] knownfactc4_29311 (pinned)
+👋 Hello and welcome to the audit channel for the $36,500 USDC **Shell Protocol** audit!
+
+📆 This audit's dates are 11/30/2023 20:00 to 12/08/2023 20:00 for total of 8 days.
+
+Please give a warm welcome to the Shell P team, particularly @Kenny, @Ish, and @Viraz, who will be available for questions either here in the channel or via DM in US, EU and India timezones timezones.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: https://code4rena.com/contests/2023-11-shell-protocol
+
+{Reactions}
+💪🏾 👋 
+
+[11/20/2023 15:21] knownfactc4_29311
+Pinned a message.
+
+
+[11/20/2023 15:54] _m4ttm
+Has this been pushed forward 2 days or did I just misread the date? I'm sure this was supposed to start today
+
+
+[11/20/2023 15:57] knownfactc4_29311
+Correct, the dates have been pushed forward 2 days later since the initial RSVP post.
+
+
+[11/20/2023 16:20] ustas.eth
+The project is live, right? It also has a page on Immunefi
+
+
+[11/20/2023 16:29] _m4ttm
+Yes but the audit scope isn't known, it could be something new
+
+
+[11/20/2023 18:22] viraz4331
+Yes but the in scope contracts are a small upgrade of the current live code
+
+
+[11/20/2023 18:46] _m4ttm
+Where does it say what's going to be in scope?
+
+
+[11/20/2023 18:48] 0xarion
+bruh , he is the sponser 😂
+
+{Reactions}
+😅 😂 (4) 
+
+[11/20/2023 18:48] _m4ttm
+My bad haha
+
+
+[11/20/2023 19:28] trachev
+Is it an update on the code from the previous shell contest
+
+
+[11/20/2023 19:31] 0xd24258bb
+hopefully, this is going to be my first audit 🤯
+
+{Reactions}
+hi5 (8) 
+
+[11/20/2023 19:45] viraz4331
+no
+
+
+[11/21/2023 21:45] 0xd24258bb
+hello 🫡 , can you advise some resources/articles to best prepare for the audit
+
+
+[11/22/2023 17:35] knownfactc4_29311
+Notice for wardens
+
+The dates on this audit has been adjusted to Nov 27th to Dec 5th.
+
+{Reactions}
+thankyou (7) 4739_Skeletor (3) hearteyesshark 🥲 (2) 
+
+[11/22/2023 17:47] pfapostol
+It's better to duplicate on rsvp. I don’t think everyone follows a separate contest channel, bot racers for example.
+
+{Reactions}
+checkmark (2) 
+
+[11/22/2023 19:08] baice8614
+。。。。
+
+
+[11/22/2023 19:11] viraz4331
+you can go through our wiki on our website the in scope contracts majorly is a small upgrade to the current v2 contracts
+
+{Reactions}
+🫡 (2) 
+
+[11/27/2023 18:41] knownfactc4_29311 (pinned)
+Heads up @🐺wardens, the Shell audit has been delayed. We'll inform you here and in the RSVP channel when a new date has been scheduled.
+
+{Reactions}
+code4rena (4) chefskiss (3) 
+
+[11/27/2023 18:41] knownfactc4_29311
+Pinned a message.
+
+
+[11/27/2023 18:45] al_qa_qa
+Again 😦
+
+
+[11/27/2023 18:46] 0xarion
+This is the third delay , why ?  
+I waste too much time reading the docs preparing for  the contest
+
+
+[11/27/2023 18:59] k736
+Apologies. Fiat onramps are problematic.
+
+{Reactions}
+chefskiss (3) 
+
+[11/27/2023 19:26] dimulski
+They are trying out some Sherlock mechanics 😄 😄
+
+{Reactions}
+😅 (3) 
+
+[11/27/2023 19:29] roleengineer
+If you don’t want to regret, don’t try to outperform others with extra preparation 🙃
+
+
+[11/27/2023 19:34] .testerbot
+lmao
+
+
+[11/27/2023 19:35] .testerbot
+Why would that be a waste of time? In any case you would have better understanding of the protocol for the audit, right?
+
+
+[11/27/2023 19:37] 0xarion
+haha , actually my intention wasn't outperform anyone , iam just waiting the contest 🤣.
+
+
+[11/27/2023 20:00] 0xarion
+Yeah that's help 100% , 
+but maybe i don't like the "preparation" too much, that's my point.
+The docs is amazing.
+
+
+[11/27/2023 20:27] banditx0x
+https://tenor.com/view/when-wen-naru-yummi-yummi-universe-gif-23030317
+
+{Embed}
+https://tenor.com/view/when-wen-naru-yummi-yummi-universe-gif-23030317
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/when-wen-6E23F.png
+
+
+[11/27/2023 20:45] saq_143
+I can't see this contest
+
+
+[11/28/2023 00:15] 0xlamide#0986
+It's been postponed
+
+{Reactions}
+👍 
+
+[11/28/2023 01:32] 00xsev
+Is there a rough estimate available for the revised timeline – are we looking at days, weeks or months?
+
+
+[11/28/2023 02:50] k736
+Days. 99.9% sure we will be ready on our end this week
+
+{Reactions}
+🙏 
+
+[11/28/2023 02:51] k736
+Again, apologies for the delay. It was out of our direct control, which isn't an excuse. We really appreciate your patience 🙏
+
+{Reactions}
+❤️ (26) 👍 
+
+[11/29/2023 04:44] addicted2crypto
+Life happens, no appoligies needed.
+
+{Reactions}
+🤙 
+
+[11/30/2023 12:45] kartoonjoy
+🗣️ Wardens, this audit will launch today, 11/30/2023 20:00
+
+
+[11/30/2023 12:54] 0xsorrynotsorry
+if there's going to be a bot race, the bot crews might need a heads up. 🫡
+
+{Reactions}
+thankyou (5) 
+
+[11/30/2023 12:58] plamkata
+When does it end
+
+
+[11/30/2023 12:58] kartoonjoy
+@🤖bot-crews FYI!
+
+{Reactions}
+🙌 (4) thankyou (2) 
+
+[11/30/2023 12:58] plamkata
+10 days again?
+
+
+[11/30/2023 12:59] kartoonjoy
+11/30 - 12/8. The dates will be updated in this channel this morning. They already appear on the website.
+
+
+[11/30/2023 16:46] droptpackets.eth
+Launch today at 12pm?
+
+
+[11/30/2023 17:11] kartoonjoy
+For the exact time, you'll want to review this message
+
+https://discord.com/channels/810916927919620096/1174414796058263622/1176166300377161739
+
+
+[11/30/2023 20:02] C4 (pinned)
+**Automated Findings / Publicly Known Issues**
+
+Reminder: all [Automated Findings / Publicly Known Issues](https://github.com/code-423n4/2023-11-shellprotocol#automated-findings--publicly-known-issues) are out of scope and ineligible for awards.
+
+{Embed}
+https://github.com/code-423n4/2023-11-shellprotocol
+GitHub - code-423n4/2023-11-shellprotocol
+Contribute to code-423n4/2023-11-shellprotocol development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/64d40558-68a0-4a92-bc12-9d053d56dfc1-AA599
+
+
+[11/30/2023 20:05] viraz4331
+Hey frens,
+good luck for the audit and feel free to dm any of us regarding any queries etc 🙂
+
+{Reactions}
+10_10 (8) 
+
+[11/30/2023 20:08] itsmetechjay
+Pinned a message.
+
+
+[12/01/2023 00:59] 0x11singh99
+Is in scope contracts (4 files) in c4 contest audited before  ?  @Viraz
+
+
+[12/01/2023 03:10] 0xdemonnn
+nvm, its solved :gummy_wink:
+
+
+[12/01/2023 04:15] viraz4331
+Only the ocean is audited before but that was an old version for this version we had a pre audit by a solo researcher
+
+{Reactions}
+👍 
+
+[12/01/2023 06:39] Message Wolf#0225 (pinned)
+**Automated Findings / Publicly Known Issues**
+
+Automated findings output for the audit can be found [here](https://gist.github.com/code423n4/640b27a9b9c209b575ed78aa106bd584).
+
+*Note for C4 wardens: Anything included in the automated findings output is considered a publicly known issue and is ineligible for awards.*
+
+
+[12/01/2023 07:33] edzynda.eth
+Anyone else getting this error when trying to run the hardhat tests?
+`Error HH18: You installed Hardhat with a corrupted lockfile due to the NPM bug #4828.`
+
+
+[12/01/2023 07:33] edzynda.eth
+Tried removing `node_modules` and reinstalling several times using 3 different node versions.
+
+
+[12/01/2023 07:34] viraz4331
+did you delete the lock file before installing `node_modules` ?
+
+
+[12/01/2023 07:38] edzynda.eth
+Just tried that. No dice
+
+
+[12/01/2023 07:42] edzynda.eth
+Ok just used `pnpm` instead. `yarn` sucks lol
+
+{Reactions}
+👍 
+
+[12/01/2023 07:46] edzynda.eth
+Now I'm getting `Error: cannot estimate gas; transaction may fail or may require manual gas limit` FML
+
+
+[12/01/2023 07:46] viraz4331
+never really faced this seems an issue with your local hardhat setup
+
+
+[12/01/2023 07:47] viraz4331
+anyone else facing this issue described above ?
+
+
+[12/01/2023 07:50] sdh_pdl
+nope, worked with yarn itself
+
+{Reactions}
+👍 
+
+[12/01/2023 07:57] edzynda.eth
+which version of node are you  using?
+
+
+[12/01/2023 07:57] 0xsorrynotsorry
+Pinned a message.
+
+{Reactions}
+thankyou 
+
+[12/01/2023 08:08] toto6328
+is the bot race already over for this project?
+
+
+[12/01/2023 08:12] 0xsorrynotsorry
+Correct. it was for the first one hour of the contest
+
+
+[12/01/2023 08:13] toto6328
+I see thanks
+
+
+[12/01/2023 08:13] toto6328
+it's a bit unfair for those who are not on the right timezone
+
+
+[12/01/2023 08:14] edzynda.eth
+So got this working by using just `npm`. Crazy to me that using different package mangers in the same ecosystem will yield completely different results. Insanity 🤦‍♂️
+
+{Reactions}
+👍 
+
+[12/01/2023 08:14] 0xauditism
+you in Asia ?
+
+
+[12/01/2023 08:15] toto6328
+yeah
+
+
+[12/01/2023 08:15] 0xsorrynotsorry
+You're not wrong at all. And the C4 Team has plans to smoothen this
+
+
+[12/01/2023 08:15] toto6328
+great to know
+
+{Reactions}
+code4rena 
+
+[12/01/2023 10:54] edzynda.eth
+Am I correct in assuming that Primatives have their own balances inside the Ocean as long as they have registered tokens in the Ocean? E.g. FooAMMPrimative will maintain balances for shWETH, shFOO, shXYZ etc?
+
+
+[12/01/2023 10:55] edzynda.eth
+Also in the case of a Primative using an adapter like Curve the balances aren't actually tracked in the Ocean they are just minted and burned as they leave and enter the ocean?
+
+
+[12/01/2023 11:07] viraz4331
+primitives will only have balance for a token when that token isn't registered in the ocean this is common for native primitives and adapters
+
+
+[12/01/2023 11:21] edzynda.eth
+Registered just means the Ocean knows about this token and defers the accounting to that Primative?
+
+
+[12/01/2023 11:22] edzynda.eth
+So common ERC20s are registered most likely DAI, USDC etc
+
+
+[12/01/2023 11:25] viraz4331
+no they aren't
+
+
+[12/01/2023 11:26] viraz4331
+accounting always stays in the ocean only computation happens in the primitive
+registered means primitive won't have that token minted to them or burnt from them
+
+
+[12/01/2023 12:17] 0xsimeon
+any difference between code coverage in foundry and hardhat?
+
+
+[12/01/2023 14:33] mrosas
+Can you explain what is the delta definition?
+
+
+[12/01/2023 15:08] edzynda.eth
+A delta is just a change in value. It can be positive or negative. So trading 100 USDC for 99 DAI gives you a USDC delta of -100 and DAI delta of +99
+
+
+[12/01/2023 15:19] viraz4331
+Used for internal accounting for the ocean
+
+
+[12/01/2023 15:20] viraz4331
+hard hat coverage is for the ocean contract and foundry coverage is for the adapter contracts it’s mentioned in the readme
+
+
+[12/01/2023 17:19] 0xtendency
+@Viraz Please help me with a link to the implementation of `OceanPrimitive`
+
+
+[12/01/2023 17:22] viraz4331
+it is the adapter contract in this case
+
+{Reactions}
+thankyou 
+
+[12/01/2023 18:32] plamkata
+What exactly are primitives?
+
+
+[12/01/2023 18:32] plamkata
+External protocols or Shell-specific smart contracts
+
+
+[12/01/2023 18:45] passteque
+the readme say there is 3 contract but the scope.txt list 4 contract
+
+
+[12/01/2023 18:55] viraz4331
+Shell specific contracts but it’s 2 types
+Native primitives that only do computation
+Adapters that interact with external protocols
+Only adapters are in the audit scope
+
+
+[12/01/2023 18:55] viraz4331
+There is a abstract contract ocean adapter hence
+
+{Reactions}
+👍 
+
+[12/02/2023 12:46] kris_renzo
+Hey everyone,
+
+I hope you're all doing well. I'm not entirely sure if this is the right channel for this, and I apologize if it seems a bit off-topic. However, I believe it's related to security, particularly concerning the Shell protocol.
+
+Let's have a casual chat and explore the core concept of Ocean.
+
+I came across a quote in [the documentation](https://wiki.shellprotocol.io/how-shell-works/the-ocean-accounting-hub#composable-utopia) about Ocean that caught my eye:
+
+"Ocean, a new shared accounting system that reduces code complexity and costs up to four times less gas for multi-step transactions."
+
+While this sounds promising, it also gives me a sense of centralization, which seems a bit contrary to what we're used to in the world of blockchain. The documentation suggests consolidating all tokens into a single ledger:
+
+"This is like having a separate database for every token! Intuitively, it would be much simpler to have one database, one ledger, for all tokens."
+
+However, I'm not sold on this idea. It might simplify things, but it also seems like it could make us more vulnerable. Instead of attacking individual token databases, an attacker only needs to compromise one to bring down the entire system. I get the gas-saving and transaction efficiency angle, but it feels like we're trading off a lot here, with a significant increase in overall risk.
+
+Lastly, I think applying the concept of "Separation of Concerns" is crucial, especially in accounting systems like this.
+
+These are just my initial thoughts, and I'm open to hearing different perspectives. Maybe I'm missing something important.
+
+Looking forward to your insights!
+
+{Embed}
+https://wiki.shellprotocol.io/how-shell-works/the-ocean-accounting-hub
+The Ocean: Accounting Hub
+An explanation of the Ocean architecture
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/4vwBOGzwSam3TFxXwo3D-655CF.png
+
+
+[12/02/2023 13:04] viraz4331
+In a modern defi world you have to separate the accounting layer and the business logic layer otherwise your system won’t be modular and won’t be able to be composable the ocean contract is the accounting layer and is decentralised for most operations it is centralised for only updating fees which is gonna be controlled by a dao in the future
+
+{Reactions}
+👍🏾 
+
+[12/02/2023 13:05] viraz4331
+We have a vision for shell to be a defi omni dApp in the future where users can access all of DeFi through shell and for that the abstraction around the accounting engine and the business logic layer is important
+
+
+[12/02/2023 15:31] babs2833
+Are adapters supposed to act as a firewall to malicious primitives, and so that is why malicious primitives are considered publicly known and out of scope?
+
+What are the potential attack vectors or weak points or issues that the devs think may be hiding in the scope of this contest? Any insights or thoughts? Is this audit focused on verifying the robustness of the adapters and ocean.sol pretty much?
+
+
+[12/02/2023 15:47] tx.origin
+this might be better suited for a twitter discussion - think we should keep this channel to contest-related questions
+
+{Reactions}
+👍🏾 
+
+[12/02/2023 17:42] 0xtendency
+Sent a message via pt @Viraz @Kenny
+
+
+[12/02/2023 18:19] viraz4331
+No they are not
+malicious adapters are out of scope because we removed the reentrancy check in ocean so in that case a malicious adapter can be bad for the user so hence
+
+
+[12/03/2023 04:34] mrosas
+Should all tokens wrapped be in 18 decimals?
+
+
+[12/03/2023 04:49] viraz4331
+Yes since ocean is a erc1155 ledger so to swap through ocean tokens need to be wrapped
+
+
+[12/03/2023 05:06] 0xjuntao
+who is the owner of Ocean contract? @Viraz
+
+
+[12/03/2023 05:42] viraz4331
+It would be a shell dao multisig
+
+
+[12/03/2023 05:44] yashar0x
+@Viraz Hey sir, would you please check your DM? 🫡
+
+{Reactions}
+👍 
+
+[12/03/2023 05:50] mrosas
+Hi help clarify my dm pls thx
+
+{Reactions}
+👍 
+
+[12/03/2023 13:03] emerald7017
+Now that reentrancy guards are removed, what if a user reenter wrap/unwrap functions before ledger is updated?
+
+
+[12/03/2023 13:10] viraz4331
+The only external call in wrapping and unwrapping is the token transfer which is assumed to be safe and also the ledger update section is in the same method
+
+
+[12/03/2023 16:39] 0xstriker
+hey guys I have trouble finding the logic of the _calculateOceanId() function which is used in the line below can somebody point out where the actual function implementation is
+https://github.com/code-423n4/2023-11-shellprotocol/blob/485de7383cdf88284ee6bcf2926fb7c19e9fb257/src/ocean/Ocean.sol#L173
+
+{Embed}
+https://github.com/code-423n4/2023-11-shellprotocol/blob/485de7383cdf88284ee6bcf2926fb7c19e9fb257/src/ocean/Ocean.sol
+2023-11-shellprotocol/src/ocean/Ocean.sol at 485de7383cdf88284ee6bc...
+Contribute to code-423n4/2023-11-shellprotocol development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/64d40558-68a0-4a92-bc12-9d053d56dfc1-AA599
+
+
+[12/03/2023 17:06] 0x11singh99
+In it's parent file OceanERC1155.sol
+
+{Reactions}
+👍 
+
+[12/03/2023 17:11] 0xstriker
+Tnx
+
+
+[12/03/2023 20:45] gavinnewcomer
+Are we assuming it is up to the user to decide wether the primitive their interacting with is acting in good faith or not?
+
+
+[12/03/2023 21:03] babs2833
+if you are using vscode a quick tip is to ctrl+shift+F, or click on magnifying glass in upper left corner, and then type `function XYZ` to quickly find a file that has it. This searches through every single file in the entire project for matching keywords. Or people use IntelliJ to quickly navigate to root locations of functions and stuff.
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/c6c3bc45b64feaf64e48dc26c2da7649-842FF.png
+
+{Reactions}
+✅ 👍 
+
+[12/04/2023 01:22] kris_renzo
+Is there a designated test file for `Ocean.sol`? If so, could someone please provide guidance or direct me to it? 🙏 If not, why is there none, considering we have test files for `Curve2PoolAdapter` and `CurveTricryptoAdapter`?
+
+
+[12/04/2023 01:43] 0xsimeon
+It's available in hardhat test. run `npx hardhat test`
+
+In the README.md: https://github.com/code-423n4/2023-11-shellprotocol/blob/485de7383cdf88284ee6bcf2926fb7c19e9fb257/README.md#testing
+`For coverage for the Ocean Contract, run yarn coverage For coverage for the Adapter Contracts, run forge coverage`
+
+{Embed}
+https://github.com/code-423n4/2023-11-shellprotocol/blob/485de7383cdf88284ee6bcf2926fb7c19e9fb257/README.md
+2023-11-shellprotocol/README.md at 485de7383cdf88284ee6bcf2926fb7c1...
+Contribute to code-423n4/2023-11-shellprotocol development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/64d40558-68a0-4a92-bc12-9d053d56dfc1-AA599
+
+
+[12/04/2023 03:55] viraz4331
+Yes and malicious primitives/adapters are out of scope for the audit too
+
+{Reactions}
+👍 (2) 
+
+[12/04/2023 11:03] kris_renzo
+Thanks man
+
+
+[12/04/2023 13:09] sagetony224
+Please how does the _computeOutputAmount() in Ocean.sol works, i.e the logic?
+
+
+[12/04/2023 13:14] 0xjuntao
+depends on how primitive implements IOceanPrimitive interface, from Ocean's perspective, it simply increase the primitive's inputToken balance by inputAmount, and decrease primitive's outputToken balance by outputAmount
+
+
+[12/04/2023 13:16] sagetony224
+Ok, it just increase and decrease the balance of the primitive. thanks
+
+
+[12/04/2023 14:30] gavinnewcomer
+I will say some sort of ranking system, similiar to chainlink's data feed system, would be probably be warranted for primitives
+
+
+[12/04/2023 14:54] viraz4331
+Thanks for the suggestion but for now all code is verified so people can look into the code or verify safety of a primitive with the team
+
+
+[12/04/2023 15:46] .nftlover
+:chefskiss: :chefskiss: :hi5:
+
+
+[12/04/2023 15:46] .nftlover
+:thankyou: :thankyou:
+
+
+[12/04/2023 18:16] jacobmartin0406
+@Viraz 
+`The exception to this mint/burn pattern is if the primitive has issuing authority over the input and/or output tokens. In that case, it does not make sense to update the primitive’s balance. Instead, the total supply of that token is increased for output tokens or decreased for input tokens. For example, when Alice deposits into an AMM, new LP tokens are minted and added to her balance. The Ocean does not deduct LP tokens from the AMM’s balance.`
+I found these statements in the whitepaper and I can't understand what it means.
+Especially about updating the primitive's balance.
+Will you kindly explain this?
+
+
+[12/04/2023 18:22] viraz4331
+For tokens that are registered to the ocean mint/burning  to/from the primitive is not allowed these tokens are usually lp tokens of the pool and the underlying lp token address is the ocean contract address
+
+
+[12/04/2023 18:26] jacobmartin0406
+If the primitive has the issuing authority over a token and when users burn the token, I think, it should update the primitive's balance. Please correct me.
+
+
+[12/04/2023 18:27] viraz4331
+that token won't be burnt since `primitive has the issuing authority over a token` means it is a ocean(erc1155) token which won't be wrapped or unwrapped
+
+
+[12/04/2023 18:29] jacobmartin0406
+thanks, I think I am getting on it.
+
+
+[12/04/2023 18:47] plamkata
+Pretty solid codebase as the previous one
+
+
+[12/04/2023 18:48] plamkata
+Anybody got anything? Curiosly speaking
+
+
+[12/04/2023 18:57] gavinnewcomer
+Yeah its solid, using the underlying ERC-X and a simple ledger system makes things pretty simple within Ocean itself, pretty hard to break things when the primitives are out of scope.
+
+
+[12/04/2023 19:10] jacobmartin0406
+balanceDeltas can be negative and I wonder if in the end of the all interaction users balance is able to negative?
+
+
+[12/04/2023 19:22] babs2833
+my first contest with c4 and im happy the codebase is really well documented and the whitepaper is great
+
+
+[12/04/2023 19:23] babs2833
+however almost sad that i probably wont find anything as a novice hah =/
+
+
+[12/04/2023 20:12] k736
+I think that by simplifying the system, we end up reducing the over all risk. Putting everything into a single ledger (i.e. the Ocean) is only as centralizing as the underlying chain it's deployed on. I agree with you that if this ledger gets compromised, then every token and primitive built on top of it is also at risk. However, the same goes for ERC token contracts already. For example, how many projects build their own ERC20 implementation? How many just copy the Open Zeppelin standard? If the OZ standard has a single bug, then quite a lot of value will be at risk.
+
+{Reactions}
+chefskiss 👍🏾 
+
+[12/04/2023 20:13] k736
+Only balanceDelta can be negative. User balances on the Ocean's erc1155 ledger must be above zero (unless there is a bug!)
+
+{Reactions}
+thankyou (3) 
+
+[12/04/2023 21:37] evmboi32
+On which chains will the contracts be deployed?
+
+
+[12/04/2023 22:15] tumelo_crypto
+Arbitrum
+
+{Reactions}
+🙏 
+
+[12/04/2023 22:20] 0xsimeon
+@Kenny What are deltas? eg: intra-transaction delta and BalanceDelta
+
+
+[12/04/2023 22:48] k736
+For doMultipleInteractions() we don’t update user balances in storage (Ocean erc1155 ledger) until the very end. We track the users’ net balance changes (balanceDelta) in memory. This is not only more gas efficient, it also lets the user flashloan themselves as many tokens as they want.
+
+
+[12/04/2023 23:23] tumelo_crypto
+Since Ocean is the accounting, are the transactions (swaps, add/remove liquidity .etc) also carried out from Ocean.sol or a different contract
+
+
+[12/05/2023 02:53] tx.origin
+yeah codebase is pretty solid and basically the same as v2 which got audited by ToB before (with minor changes)
+Havent found anything so far but I like this codebase so I'll continue to look for anything 
+
+Will be interesting to see what people find in the end (if they find anything) nonetheless
+
+
+[12/05/2023 02:56] k736
+Pretty much all we did was modify the reentrancy guards so that contracts can call back into `doMultipleInteractions()` recursively. Any new exploits introduced would probably involve that change, I would imagine.
+
+{Reactions}
+cyberheart (2) 
+
+[12/05/2023 02:57] tx.origin
+yeah this and the new adapters are the things I'm focusing on now
+
+{Reactions}
+🤙 
+
+[12/05/2023 05:10] plamkata
+Didnt the readme specify that reentrancy is out of scope
+
+{Reactions}
+⬆️ (2) 
+
+[12/05/2023 05:12] babs2833
+After a set of doMultiple interactions, can the balanceDeltas in memory for a shToken for alice be negative? In the whitepaper swap example, it states "in this case there are no net changes to Alice's ocean ERC-1155 balances, hence no storage writes"
+
+So there are cases where balanceDeltas can be nonzero. But they must be positive only? 
+
+Or can Alice just chill with a negative balanceDeltas for a shToken even after a set of interactions conclude?
+
+
+[12/05/2023 05:14] babs2833
+(Is an invariant that the balanceDeltas in storage must be >= 0 ?) (Or do they always dissipate after interactions conclude because they are only ever memory, so its a mute point?)
+
+
+[12/05/2023 05:38] viraz4331
+https://discord.com/channels/810916927919620096/1174414796058263622/1181327364836302993
+
+{Reactions}
+👍 
+
+[12/05/2023 06:02] jacobmartin0406
+But one more thing, what is the guarantee that user balance is not negative?
+User should continue interation or just revert?
+
+
+[12/05/2023 06:11] k736
+I don't recall the exact wording of the readme, but the intent is that merely flagging that reentrancy is possible is not a valid bug because removing reentrancy constraints is the whole point of this update. Basically, if you can provably do something bad using reentrancy (or any other method), then that's a valid issue.
+
+
+[12/05/2023 06:15] k736
+At the end of the interactions, the Ocean will push the balanceDeltas to storage on its erc1155 ledger. That operation will throw an error if the user's balance would go negative as a result of that update.
+
+{Reactions}
+PES_Angel 
+
+[12/05/2023 06:15] jacobmartin0406
+Thanks again.
+
+{Reactions}
+👍 
+
+[12/05/2023 07:00] 0xtendency
+From your subsequent questions, i believe this didn't clarify your thoughts did it?
+
+I think you are referring to the scenario where users balance deltas are decreased thereby negative.
+
+What you should note is while packing everything, they make it positive by adding - e.g uint256(--567) which will result in positive 567, this value can then be deducted from the user balance
+
+{Reactions}
+thankyou (2) PES_Angel (2) 
+
+[12/05/2023 07:22] tumelo_crypto
+Still looking for an answer to this👆🏽
+
+
+[12/05/2023 07:30] 0xhelium
+Check some ocean functions , you will notice call to adapters internal functions which in turn calls functions on the primitive
+
+
+[12/05/2023 08:09] tumelo_crypto
+Thanks
+
+
+[12/05/2023 08:16] plamkata
+The ocean is an intermediary
+
+
+[12/05/2023 08:17] plamkata
+You can see a curveadapter implementation
+
+
+[12/05/2023 08:17] plamkata
+Curve is the protocol that executes the swaps deposits etc
+
+
+[12/05/2023 08:17] plamkata
+And there will be other aswell
+
+
+[12/05/2023 08:36] mrosas
+@Kenny I dmed u
+
+
+[12/05/2023 09:54] viraz4331
+Accounting is handled by ocean computation by the adapter / primitive
+
+
+[12/05/2023 09:54] viraz4331
+let me know if it’s something urgent
+
+
+[12/05/2023 09:55] mrosas
+Dmed
+
+
+[12/05/2023 11:53] themastermaniac
+hello
+
+
+[12/05/2023 12:46] jacobmartin0406
+But I can't see anything about accounting in adapters
+
+
+[12/05/2023 14:02] proxy1967
+@Viraz @Kenny Could you explain more what happens when a primitive registers tokens with Ocean ? Is it assumed the primitive will do the accounting and not Ocean ?
+
+
+[12/05/2023 14:48] babs2833
+`Ocean.sol`: If an interactionType is `computeOutputAmount` or `computeInputAmount` this goes into `_executeInteraction` which goes to the corresponding `_compute*` function. Inside there it's actually calling `_increaseBalanceOfPrimitive` and `_decreaseBalanceOfPrimitive` (Along with returning the input/output Amount)*. These guys are what actually physically mint/burn primitives balances in the Ocean ledger (see OceanERC1155.sol) and update them during a `compute` phase.
+
+So from my understanding, it looks like Ocean.sol is properly keeping track of primitive balances anytime a primitive like an AMM are interacted with (`computeOutputAmount` and `computeInputAmount` enum types).
+
+I think that was what your question was asking but idk
+
+
+[12/05/2023 14:51] babs2833
+The accounting ("movement") logic should all be handled by the ocean. The primitives/adapters are solely focused on mathematical business logic of calculating input/output amounts and I guess can also include functions that call `do*` like unwrapToken and wrapToken functions for example
+
+
+[12/05/2023 14:55] jacobmartin0406
+I had seen the `OceanERC1155.sol`, but I missed it. Thank you for clear answer. It helps a lot. Thanks again.
+
+{Reactions}
+PES_SadGePray 
+
+[12/05/2023 15:05] 0x11singh99
+Hey @Viraz  `Now, the primitive's balances will be minted the input token or burned the output token before performing the computation step, and then will burn the output token or mint the input token based on the result.` 
+It is little confusing to me. First it is saying burning and minting is happening before and then it is also saying after computation step buring and minting will occur based on result. Does that mean two times burning and minting occur before and after comutation step ?
+
+
+[12/05/2023 15:20] viraz4331
+No for compute output amt flow is mint input , call the primitive & burn output
+For compute input amt flow is 
+Burn output, call primitive and mint input
+
+{Reactions}
+👍 
+
+[12/05/2023 16:24] 0x11singh99
+Trail of bits findings have been fixed in `Ocean.sol` already .  And after that it updated again now and come for audit here.  @Viraz  Am I right ?
+
+
+[12/05/2023 16:28] tumelo_crypto
+I think Ocean.sol was audited before but the curve adapters were not🤔
+
+{Reactions}
+👍 
+
+[12/05/2023 16:42] tryal556
+What is the approx unwrapFee that shell is going for or is it yet to be decided?
+
+
+[12/05/2023 17:23] viraz4331
+Yeah we made a small upgrade since that
+
+{Reactions}
+🫡 
+
+[12/05/2023 17:23] viraz4331
+Yes
+
+
+[12/05/2023 17:41] jacobmartin0406
+@Viraz @Kenny  created private thread plz check
+
+
+[12/05/2023 21:31] k736
+When a primitive registers a new token on the Ocean, the primitive is in charge of tracking the total supply. The Ocean handles the mints and burns; however, it is the primitive that determines how many get minted/burned.
+
+{Reactions}
+chefskiss 
+
+[12/05/2023 21:44] babs2833
+Has anyone ever done a flashloan with Ocean before using the flash mint technique?
+
+
+[12/05/2023 21:54] babs2833
+If it's only theoretical and nobody has... then it could be impossible, or I dont understand the mechanics hah..
+
+
+[12/05/2023 22:32] kris_renzo
+Sorry I haven't been able to reply. I have been pulling my hair trying to get my invariant tests to work.
+
+
+[12/05/2023 22:32] kris_renzo
+I need help with a fork invariant test using foundry. Whenever I run the forge command, it takes a long time (~20 minutes) and then crashes, unless I manually kill the process.
+
+I understand that fork tests can be slow based on what I've learned, but is this level of delay normal?
+
+Here is the command:
+```bash
+forge test --fork-url $ARBITRUM_URL --match-path src/test/fork/stateful-fuzzing/continueOnRevert/handler-base/InvariantsTest.t.sol -vvvvv
+```
+
+
+[12/05/2023 22:32] kris_renzo
+The Error:
+```bash
+2023-12-05T21:45:20.861349Z ERROR sharedbackend: Failed to send/recv `basic` err=GetAccount(0x000000000000000000000000000006667bf44575,
+(code: -32000, message: missing trie node b96d1a77896192d875a4bb869e91f0a3e8ea6ba7762bec9af6225d3ab866556b (path ) <nil>, data: None)) address=0x000000000000000000000000000006667bf44575
+2023-12-05T21:45:20.862475Z ERROR sharedbackend: It looks like you're trying to fork from an older block with a non-archive node which is not supported. Please try to change your RPC url to an archive node if the issue persists.
+The application panicked (crashed).
+Message:  could not make raw evm call:
+fuzz: failed to inspect: Database(GetAccount(0x000000000000000000000000000006667bf44575,
+(code: -32000, message: missing trie node b96d1a77896192d875a4bb869e91f0a3e8ea6ba7762bec9af6225d3ab866556b (path ) <nil>, data: None)))
+Location: evm\src\fuzz\invariant\executor.rs:148
+
+This is a bug. Consider reporting it at https://github.com/foundry-rs/foundry
+
+Backtrace omitted. Run with RUST_BACKTRACE=1 environment variable to display it.
+Run with RUST_BACKTRACE=full to include source snippets.
+```
+
+I encounter a similar error even when specifying a block number in my forge test.
+
+Regarding caching RPC calls locally as suggested in the [Foundry book](https://book.getfoundry.sh/tutorials/best-practices?highlight=fuzz%2Finvariant%20%5Bseed%5D(https%3A%2F%2Fbook.getfoundry.sh%2Fsrc%2Freference%2Fconfig%2Ftesting.html%23seed)#fork-tests), I find the guide unclear, and some resource links are missing. Unfortunately, I am unable to achieve a successful run to atleast cache the result.
+
+Here's a [link to the test contracts](https://github.com/Renzo1/Shell_Invariant_Tests). They are related to the ongoing Shell contest on Code4rena. Any assistance would be greatly appreciated. 
+
+I have long list of invariants to test but this has been a stumbling block.
+
+{Embed}
+https://book.getfoundry.sh/tutorials/best-practices?highlight=fuzz%2Finvariant%20%5Bseed%5D(https%3A%2F%2Fbook.getfoundry.sh%2Fsrc%2Freference%2Fconfig%2Ftesting.html%23seed)
+Foundry Book
+A book on all things Foundry
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/card-E9D38.png
+
+
+[12/05/2023 22:34] kris_renzo
+I do have a counter argument, but I'm too distracted now to collect my thoughts. Good points btw
+
+{Reactions}
+🤙 
+
+[12/05/2023 23:00] k736
+Step 1: unwrap the tokens you want to flashloan
+Step 2: call a primitive that you control to take the unwrapped tokens
+Step 3: wrap the tokens back into the Ocean to pay off the flashloan
+
+
+[12/05/2023 23:33] tumelo_crypto
+Is a there a link to the specific contracts of the curve2pool and curvetricryptopool, or the contract addresses you plan to use for those?
+
+
+[12/05/2023 23:36] babs2833
+And we are doing step 2 with interaction(s) like WrapErc20/Compute rather than with a separate call like a safeTransfer?
+
+For step 2, I thought we would have to do a safeTransfer, but then realized there would be no time for that since we are stuck in iterating the interactions? 
+
+And if we had multiple `doMultipleInteraction` calls, this wouldn't help because the first `doMultipleInteraction` would have to rectify it's ending balance anyway, so the flash loan has to happen within a single `doMultipleInteraction`?
+
+
+[12/06/2023 01:25] viraz4331
+The address for curve pools are mentioned in the forge test files
+
+
+[12/06/2023 01:27] viraz4331
+Theoretically yes it would happen in a single doMultipleInteraction call
+
+{Reactions}
+Bless 
+
+[12/06/2023 01:41] k736
+Step 2 would be an interaction in `doMultipleInteractions`. It could be something like `compute*` that uses `0x000...` for the token addresses so no tokens get minted/burned, but the primitive (that does the flashloan) is still invoked. 
+
+The high level idea is that the `balanceDelta` structure lets users flashmint as many tokens as they want onto the Ocean's erc1155 ledger. Then it just becomes a matter of unwrapping those tokens. There are multiple ways to accomplish that.
+
+{Reactions}
+Bless 
+
+[12/06/2023 07:18] tumelo_crypto
+Thanks
+
+
+[12/06/2023 09:03] wangxx2026
+@Kenny accept dms?
+
+
+[12/06/2023 11:56] banditx0x
+Is Smart Contract Programmer participating in Shell? 👀
+
+{Attachments}
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/image-CC8D4.png
+
+{Reactions}
+👀 (6) 
+
+[12/06/2023 12:01] kris_renzo
+I doubt I'll be able to resolve this issue, and come up with good submissions before the deadline, so I'm just going to drop some of the invariants I had planned on testing. Hopefully, the fuzzers in the community find value in it. When Web3 wins, we all win.
+[Link here](https://github.com/Renzo1/All-About-Invariants-Formulation/tree/main)
+
+{Embed}
+https://github.com/Renzo1/All-About-Invariants-Formulation/tree/main
+GitHub - Renzo1/All-About-Invariants-Formulation
+Contribute to Renzo1/All-About-Invariants-Formulation development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/All-About-Invariants-Formulation-DC798
+
+{Reactions}
+🙏 (3) 
+
+[12/06/2023 12:04] tx.origin
+This is cool. I'm currently trying out echidna and planned to set up my invariant test suite today. This will save quite some time
+
+
+[12/06/2023 12:30] kris_renzo
+Glad you found it useful
+
+
+[12/06/2023 12:40] skodinger
+every web3 youtuber i know of, is somehow into SC security
+
+
+[12/06/2023 12:49] topmark1
+Please check private thread, @Kenny , @Ish , and @Viraz
+
+
+[12/06/2023 15:29] 0xsorrynotsorry
+most probably.
+He said he started contributing to the C4 contests during his OpenSense interview.
+
+
+[12/06/2023 19:01] k736
+Thank you for this!
+
+
+[12/06/2023 19:38] kris_renzo
+Happy to help
+
+
+[12/07/2023 09:29] adeolu
+hi @Viraz  @Kenny  shell only to be used on arbitrum?
+
+
+[12/07/2023 11:25] viraz4331
+In the near future yes
+
+
+[12/07/2023 11:25] adeolu
+okay thanks
+
+
+[12/07/2023 11:53] 0xhacksmithh
+Hi @Viraz made a Pt
+
+
+[12/07/2023 12:10] 0xdanielh
+@Viraz DMed!
+
+
+[12/07/2023 13:08] tumelo_crypto
+What is the point of having the tokenId as a parameter for the _calculateOceanId() function as it seems to always be zero?
+
+
+[12/07/2023 13:27] 0xsl1
+it’s 0 only for ERC20 tokens
+
+
+[12/07/2023 13:28] tumelo_crypto
+Oh okay thanks
+
+
+[12/07/2023 13:32] niser93
+hi, in Curve2PoolAdapter.sol#L65 you're using ```mapping(uint256 => int128) indexOf;```. There is a reason why you're using signed integers? @Viraz @Kenny
+
+
+[12/07/2023 13:40] viraz4331
+It’s not 0
+
+
+[12/07/2023 13:41] viraz4331
+Because of the abi in curve contract
+
+{Reactions}
+👍 
+
+[12/07/2023 20:01] sil3th
+@Viraz check dm
+
+
+[12/07/2023 21:55] tumelo_crypto
+Will the primitiveOutputAmount of curve adapters be called by the same function in the OceanAdapter, if not then which contract will call it?
+
+
+[12/07/2023 22:28] adeolu
+Check computeOutputAmout() in OceanAdapter. 
+
+They're supposed to be used via ocean.DoInteraction().
+
+
+[12/07/2023 22:48] elcid2000
+For me too! Thanks @Viraz
+
+
+[12/07/2023 22:53] tumelo_crypto
+Yes I see that the computeOutputAmount() in the OceanAdapter calls primitiveOutputAmount(), but it calls the local function in OceanAdapter contract so how would it connect to the curve adapters contract and call their  primitiveOutputAmount() function
+
+
+[12/07/2023 22:59] adeolu
+What local function? Afaik it computeOutputAmount() calls  are unwrap() -> primitiveOutputAmount() -> wrap(). 
+
+
+Wrapping and unwrapping is done in ocean.sol so ocean adapter calls ocean to perform that. 
+
+Also to start the chain of actions. You call ocean.doInteraction(), specifying the type of interaction you want to perform. If you want to "computeOutputAmount()" you will specify that the interaction is of type computeOutputAmount  and ocean will call the computeOutputAmount() fcn on the adapter. If you check the computeOutputAmount () fcn in ocean adapter you'll see a "onlyOcean" modifier.
+
+
+[12/07/2023 23:08] tumelo_crypto
+By local function I meant the primitiveOutputAmount() function inside the OceanAdapter
+
+
+[12/07/2023 23:14] tumelo_crypto
+I think you are misunderstanding my question, I understand the chain of actions
+
+There’s a primitiveOutputAmount() function in the OceanAdapter and another primitiveOutputAmount() function in the curve adapters 
+
+How do you determine which one to call when the computeOutputAmount() function is called by the Ocean
+
+
+[12/07/2023 23:53] adeolu
+The OceanAdapter.sol primitiveOutputAmount () function is virtual. Curve adapter contracts simply  overrides it and modifies the implementation. 
+
+So there is only one primitiveOutputAmount () in  the curve adapters.
+
+
+[12/08/2023 00:12] tumelo_crypto
+Okay now that makes sense, thank you 🙏🏽
+
+
+[12/08/2023 01:43] viraz4331
+Yes
+
+
+[12/08/2023 02:20] 0xjuntao
+@Viraz check dm plz
+
+
+[12/08/2023 08:39] topmark1
+any help to the link that shows how ids is invoked based on this comment here https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/ocean/Ocean.sol#L227
+
+{Embed}
+https://github.com/code-423n4/2023-11-shellprotocol/blob/main/src/ocean/Ocean.sol
+2023-11-shellprotocol/src/ocean/Ocean.sol at main · code-423n4/2023...
+Contribute to code-423n4/2023-11-shellprotocol development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/64d40558-68a0-4a92-bc12-9d053d56dfc1-AA599
+
+
+[12/08/2023 08:56] adeolu
+Check the tests [here](https://github.com/code-423n4/2023-11-shellprotocol/blob/485de7383cdf88284ee6bcf2926fb7c19e9fb257/src/test/fork/TestCurve2PoolAdapter.t.sol#L80)
+
+{Embed}
+https://github.com/code-423n4/2023-11-shellprotocol/blob/485de7383cdf88284ee6bcf2926fb7c19e9fb257/src/test/fork/TestCurve2PoolAdapter.t.sol
+2023-11-shellprotocol/src/test/fork/TestCurve2PoolAdapter.t.sol at ...
+Contribute to code-423n4/2023-11-shellprotocol development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q4-2023 - shellprotocol-nov30 [1174414796058263622].txt_Files/64d40558-68a0-4a92-bc12-9d053d56dfc1-AA599
+
+
+[12/08/2023 09:08] topmark1
+thanks Boss
+
+{Reactions}
+❤️ 
+
+[12/08/2023 16:22] netlify
+I can't see the tab where you can click on a submitted finding to make an edit anymore. It used to be there. Anyone else encountering the same problem?
+
+
+[12/08/2023 16:45] 0x11singh99
+go into findings in  left top and expand in which protocol you want to edit
+
+
+[12/08/2023 16:58] netlify
+Whoa, fantastic new UX. Thanks a bunch.
+
+{Reactions}
+👍 
+
+[12/08/2023 19:09] elcid2000
+@Ish dmed!
+
+
+[12/08/2023 20:01] mosharaf
+i was about to click the ' submit issue ' button
+
+{Reactions}
+😩 
+
+[12/08/2023 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺wardens The **Shell Protocol** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the audit is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a Contest-Admin if you have questions along the way!
+
+{Reactions}
+😁 (2) 
+
+[12/08/2023 20:05] tx.origin
+how many submissions?
+
+
+[12/08/2023 20:15] proxy1967
+329
+
+
+[12/09/2023 00:37] tx.origin
+hmm quite low
+
+
+[12/09/2023 00:37] tx.origin
+excited to see what people found
+
+
+[12/09/2023 08:33] tumelo_crypto
+Yeah same, hopefully results will be out before new years with this low number of submissions
+
+
+[12/09/2023 11:39] superman_i4g
+Yeah; shell codebase is always fun to audit. I reckon a H/M will be valid.
+
+{Reactions}
+💛 (2) 
+
+[12/19/2023 13:17] thetechnofeak
+pheonix
+
+
+[12/20/2023 04:10] cu5t0mpeo
+when results?
+
+
+[12/21/2023 10:35] 7a4raf
+Expect it in a week
+
+
+[12/21/2023 14:07] 0x11singh99
+Super Fast  🫡
+
+
+[12/21/2023 14:07] oceansky
+what? no h/m findings
+
+
+[12/21/2023 14:43] ev_om
+Top 5 and a 4-figure payout in my first contest?? Got lucky there were no H/M for sure but damn 😍
+
+{Reactions}
+🎉 (4) 
+
+[12/21/2023 14:44] ev_om
+Shameless self-plug since I'm actively sharing my journey but currently talking to the wind https://twitter.com/0xEV_om
+
+
+[12/21/2023 15:29] udsen_
+@PaperParachute | C4 seems in the final QA Judging results sheet there were 4 reports with Grade A and 4 reports with Grade B. 
+
+But in the rewards there seems to be 5 Grade A reports being rewarded.  
+
+Is the reward distribution correct or am i missing something?
+
+
+[12/21/2023 15:44] _paperparachute
+There's probably a discrepancy between the last time the sheet you're referring to was edited and what was changed in the repo. The results are correct and finalised, yes 🙂
+
+
+[12/21/2023 16:24] dwward3n
+Cool Shell, with no h/m
+
+
+[12/21/2023 16:50] viraz4331
+Thanks a lot guys for participating in the contest 🫡 
+In case you have any feedback for us, do let us know
+Thanks again
+
+{Reactions}
+🫡 (4) 
+
+[12/21/2023 17:31] thebrittfactor
+Wardens - Please note that there was a discrepancy discovered in the awarding of Shell Protocol. I have since deleted the announcement here and in the #📢announcements channel. We are working with the judge to confirm the proper grades and will re-announce later today. TY for your patience and understanding 🙂 :hi5:
+
+
+[12/21/2023 17:44] 0xa5df
+Thanks for the correction!
+Apologies for the trouble caused by that
+
+{Reactions}
+👍 
+
+[12/21/2023 19:26] _paperparachute
+> The results are correct and finalised, yes
+This didn't age well.
+
+{Reactions}
+ohno 
+
+[12/21/2023 20:28] _paperparachute
+🤑 🎉  Awards for **Shell Protocol**:
+
+$6,769.17 USDC » peanuts
+$5,217.42 USDC » @oakcobalt 
+$5,172.50 USDC » @EV_om 
+$5,172.50 USDC » @lsaudit 
+$887.35 USDC » @IllIllI 
+$814.56 USDC » 0xmystery 
+$814.56 USDC » Udsen 
+$814.56 USDC » @bin2chen 
+$641.36 USDC » @Sathish9098 
+$458.85 USDC » @hunter_w3b 
+$437.36 USDC » Myd 
+$72.79 USDC » @0x11singh99 
+$72.79 USDC » @0xVolcano 
+$44.92 USDC » @0xSmartContract 
+$44.92 USDC » @0xepley 
+$44.92 USDC » LinKenji 
+$44.92 USDC » @ZanyBonzy 
+$44.92 USDC » @Albahaca 
+$44.92 USDC » @alexbabits 
+$44.92 USDC » clara 
+$44.92 USDC » @foxb868 
+$44.92 USDC » @invitedtea 
+
+🏁 Findings summary
+--------------------------------------—
+High risk findings: 0
+Med risk findings: 0
+Gas reports: 5 (Best: hunter_w3b)
+QA reports: 8 (Best: peanuts)
+Advanced analysis reports: 13 (Best: Sathish9098)
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.*
+
+
+[12/21/2023 20:51] aerialraider
+dang, nothing again... ugh
+
+{Reactions}
+😩 (2) 
+
+[12/21/2023 20:52] 0xsmartcontractsamurai
+Wow can really make some cool $ winnings for top QA reports! 👊
+
+
+[12/22/2023 14:17] felipenovaesrocha
+What is QA report?
+
+
+[12/22/2023 14:30] jvorex
+A batch of Low & Non-critical issues
+
+{Reactions}
+❤️ (2) 
+
+[12/22/2023 14:55] felipenovaesrocha
+Ohh i thought that was like Questions&Answering or Quality Assurance Report :kek:
+
+
+[12/22/2023 17:45] _paperparachute
+It is quality assurance! It's any findings that aren't considered high or medium severity 🙂
+
+
+[12/22/2023 17:46] _paperparachute
+In the rare event that there are no Highs or Mediums they are more valuable.
+
+
+[12/23/2023 00:01] felipenovaesrocha
+Oh nice!
+
+
+[12/23/2023 00:01] felipenovaesrocha
+yeah i agree
+
+{Reactions}
+dance_vibe (2) 
+
+[02/24/2024 02:50] itsmetechjay
+ℹ️ This channel is pending archive.  As a result, any private threads will be permanently deleted on Saturday, 02 March 2024. Please make sure to grab anything you might need from those before then.
+
+
+[02/29/2024 22:35] itsmetechjay
+ℹ️ Reminder: this channel will be deleted in 24 hours.
+
+
+==============================================================
+Exported 264 message(s)
+==============================================================
